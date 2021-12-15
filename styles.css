@@ -259,12 +259,19 @@ Latest Products
 
 @media only screen and (max-width: 567px) {
   .title__container {
-    flex-direction: column;
+    flex-wrap: wrap;
     padding: 15px 20px;
   }
 
-  .section__titles:not(:last-child) {
-    margin: 0 0 1.3rem;
+  .section__title .primary__title {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .section__title {
+    margin: 0px 0px;
+  }
+  .section__title {
+    margin: 0px 0px;
   }
 }
 
@@ -1445,4 +1452,14 @@ body,
 
 #viewme2:hover {
   border: 1px solid #fcae16;
+}
+
+/* add calender-section */
+.icon-google {
+  color: white;
+  text-decoration: none;
+}
+
+.icon-google:hover {
+  color: white;
 }
